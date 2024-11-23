@@ -7,7 +7,8 @@ Link to Streamlit 🎓: https://app-dashboard-enhanced-nmljtzascwigx2cf7dodqf.st
 
 I've provided screenshots of what the dashboard looks like below. I decided to explore learning modality in terms of its general distribution across school districts in the U.S. and how it compares to different states. The first thing I changed in the code was implementing a widget. I found a Python code on one of the Streamlit sites and used that template to create a sidebar to filter out states and learning modalities. I also included a 'color theme' (which was in the suggested template) but didn't notice any difference in the dashboard.
 
-I have three figures on the dashboard: a donut chart, bar graph, and a table.
+I have three figures on the dashboard: a donut chart, bar graph, and a table. I added another requirement file called plotly.express to create the donut chart. 
+
 1) The donut chart shows the learning modality distribution across all reported school districts. You can click on the legend and filter out each learning modality, which will change the chart's distribution. 
 2) The bar graph shows each state that reported in-person learning. The measurement in this case was the number of students in each state that had been reported to be in a school district with in-person learning. The darker the bar graph, the higher the state had in-person learning.
 3) The data table uses the filters on the sidebar to view whatever data you'd like
